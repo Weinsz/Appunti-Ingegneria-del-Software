@@ -1,0 +1,8 @@
+Notare come in [[Interface segregation in azione]] sia stato necessario specificare **staticamente** che `Deck` implementi `CardSource`, ovvero occorre forzare la dichiarazione del fatto che `Deck` sia un _sottotipo_ di `CardSource` (**Java è fortemente tipizzato**) e quindi sia possibile mettere un oggetto `Deck` ovunque sia richiesto un oggetto `CardSource`.
+
+Il compilatore non sa a tempo di compilazione quale metodo `draw()` dovrà chiamare, rimandando la decisione al momento effettivo dell'esecuzione.
+Permette di chiamare codice ancora non scritto; è dunque collegato a estendibilità e Open-Closed Principle.
+
+In altri linguaggi come **Go** c’è una **maggiore dinamicità** perché non serve specificare nel codice che un oggetto è sottotipo di qualcos’altro, è sufficiente solo che implementi un metodo con la stessa *signature*. Il controllo che l’oggetto passato ad una funzione abbia le capacità necessarie avviene a runtime e non prima.
+
+Un problema della troppa dinamicità (**duck typing**), come in Go, è che se i metodi di un oggetto non hanno dei nomi abbastanza specifici si possono avere dei problemi. Per esempio, in un programma per il gioco del tennis se una funzione richiede un oggetto che implementa il metodo `play()`, e riceve in input un oggetto che non c’entra nulla con il tennis (per esempio un oggetto di tipo `GiocatoreDiScacchi`) che ha il metodo `play()`, si possono avere degli effetti indesiderati.

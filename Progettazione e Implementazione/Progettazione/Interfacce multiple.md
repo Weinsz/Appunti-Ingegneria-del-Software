@@ -1,0 +1,3 @@
+[![](https://marcobuster.github.io/sweng/mdbook-plantuml-img/6cc35bc59876da513cf7380f60ac038c9bd2f0da.svg)
+
+Tornando all’esempio, la classe `Deck`, che implementa `CardSource`, **può implementare anche altre interfacce**, come `Shuffable` e `Iterable<Card>`. Al metodo precedente interessa solo che Deck abbia le capacità specificate in `CardSource`, se poi implementa anche altre interfacce è ininfluente. Ricorda un po' il caso del tennista scacchista.

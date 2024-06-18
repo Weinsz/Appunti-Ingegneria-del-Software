@@ -1,0 +1,2 @@
+Organizzazione delle fasi del ciclo di vita in maniera **sequenziale**, con ordine prestabilito e attraversati uno alla volta. Il più famoso è il [[Modello a cascata]].
+Avendo delle [[Modello a cascata#^criticita|criticità]], nascono numerose **varianti** che cercano di risolverne i vari problemi, spiccando per rilevanza il [[Modello a V]], che introduce una più estesa fase di **testing**.
