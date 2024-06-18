@@ -29,3 +29,6 @@ Per una suddivisione precisa, riferirsi a questo [indice](https://gitlab.di.unim
   15. Reti
   16. Analisi di reti
   17. Reti temporizzate ([mancante](https://gitlab.di.unimi.it/silab-gang/sweng/-/blob/master/src/17_reti-petri-temporizzate/00_index.md))
+
+
+Tutti i contenuti sono rilasciati sotto licenza Creative Commons BY-NC-SA 4.0, consulta il file LICENSE per ulteriori dettagli.
